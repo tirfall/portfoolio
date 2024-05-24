@@ -80,10 +80,7 @@ footer {
 }
 img{
     width: 10%;
-    height: auto;
     float: right;
-    margin-bottom: 20px;
-}
-.foto{
-    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
 }
