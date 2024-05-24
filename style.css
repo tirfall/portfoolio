@@ -62,13 +62,15 @@ nav li a:hover{
     overflow: hidden;
 }
 #minust li{
-
+ margin-bottom: 9px;
 }
 main {
     padding: 2em;
 }
 section {
     margin-bottom: 2em;
+    border: solid black 1pt;
+    padding-left: 10px;
 }
 footer {
     background-color: #333;
@@ -77,5 +79,11 @@ footer {
     padding: 1em 0;
 }
 img{
-    width: 18%;
+    width: 10%;
+    height: auto;
+    float: right;
+    margin-bottom: 20px;
+}
+.foto{
+    float: right;
 }
