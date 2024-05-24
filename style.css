@@ -23,7 +23,7 @@ header h1{
     border: solid 1pt red;/*dotted dashed double*/
     padding: 1%;
 }
-li{
+nav li{
     display: inline;
 }
 nav{
@@ -33,7 +33,7 @@ nav{
     margin: auto;
 }
 
-li a{
+nav li a{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 200;
     letter-spacing: 1px;
@@ -45,12 +45,19 @@ li a{
     color: white;
 }
 
-ul{
+nav ul{
     list-style-type: none;
     overflow: hidden;
     margin: auto;
     padding: 1%;
     width: 90%;
+}
+nav li a:hover{
+    background-color: lightgrey;
+    text-decoration: underline;
+}
+#oskusi li{
+    font-family: "Bebas Neue", sans-serif;
 }
 main {
     padding: 2em;
