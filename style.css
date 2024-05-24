@@ -1,24 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-nav {
-    background-color: #333;
+
+
+header{
     color: white;
-    padding: 1em;
+    background-color: black;
+    width: 90%;
+    height: 40%;
+    margin: auto;
+    padding: 1%;
 }
-nav ul {
-    list-style-type: none;
-    padding: 0;
+header h1{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1rem;
+    border: solid 1pt red;/*dotted dashed double*/
+    padding: 1%;
 }
-nav ul li {
+li{
     display: inline;
-    margin-right: 1em;
 }
-nav ul li a {
-    color: white;
+nav{
+    background: grey;
+    width: 92%;
+    text-align: center;
+    margin: auto;
+}
+
+li a{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 150%;
     text-decoration: none;
+    padding: 10px 20px;
+    border-right: solid 1px red;
+    font-variant: small-caps;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: auto;
+    padding: 1%;
+    width: 90%;
 }
 main {
     padding: 2em;
