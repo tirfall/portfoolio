@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body {
     font-family: Arial, sans-serif;
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
@@ -56,8 +57,12 @@ nav li a:hover{
     background-color: lightgrey;
     text-decoration: underline;
 }
-#oskusi li{
-    font-family: "Bebas Neue", sans-serif;
+#minust ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+#minust li{
+
 }
 main {
     padding: 2em;
